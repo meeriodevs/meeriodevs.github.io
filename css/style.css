@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700|osefin+Sans:400,600|Raleway:100,200,300,400,500,600&display=swap");
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  color: #555;
+  background: #fff; }
+
+.section {
+  padding: 50px 0; }
+
+.about-us {
+  background-color: #f6f7f7;
+  padding-bottom: 50px;
+  padding-top: 150px; }
+  .about-us .about-our-team {
+    text-align: justify;
+    color: #64707b; }
+    .about-us .about-our-team h4 {
+      line-height: 30px;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 30px; }
+    .about-us .about-our-team p {
+      font-size: 18px; }
+
+.contact {
+  background: #f6f7f7; }
+
+.primary-overlay {
+  background: rgba(63, 57, 77, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.main-header .showcase {
+  padding-top: 110px; }
+
+.heading-block {
+  text-align: center;
+  padding: 60px 0;
+  display: inline-block;
+  width: 100%; }
+  .heading-block h1 {
+    font-size: 105px;
+    font-weight: 800;
+    color: #555;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    line-height: 80px;
+    letter-spacing: -1px; }
+  .heading-block .subtitle {
+    text-transform: none;
+    padding: 0 20px;
+    position: relative;
+    display: inline-block;
+    color: #555;
+    font-size: 25px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-left: 150px; }
+    .heading-block .subtitle::before {
+      position: absolute;
+      left: 0;
+      height: 75px;
+      width: 2px;
+      background: #555;
+      content: "";
+      bottom: 0; }
+
+.our-service {
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  padding-bottom: 130px;
+  background-attachment: fixed; }
+  .our-service__items {
+    cursor: pointer; }
+  .our-service__icon {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3aadc5;
+    margin-bottom: 50px;
+    transform: rotate(45deg);
+    background: transparent;
+    transition: all .2s linear; }
+    .our-service__icon i {
+      color: #3aadc5;
+      display: inline-block;
+      line-height: 100px;
+      transform: rotate(-45deg); }
+  .our-service .our-service__icon:hover {
+    background: #3aadc5; }
+  .our-service .our-service__icon:hover i {
+    color: #fff;
+    display: block; }
+  .our-service__overlay {
+    background: rgba(63, 57, 77, 0.7);
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  .our-service__heading {
+    margin-top: 150px; }
+
+.main-header {
+  background: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  background-attachment: fixed; }
+  .main-header .logo {
+    margin-top: 6px;
+    height: 3.5rem;
+    width: auto; }
+  .main-header .main-text {
+    height: 75vh; }
+    .main-header .main-text h1 {
+      font-family: "Raleway", sans-serif;
+      font-weight: 200;
+      text-align: center;
+      color: #3aadc5; }
+  .main-header nav {
+    position: fixed;
+    background: transparent;
+    z-index: 300; }
+  .main-header nav ul a {
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.4rem;
+    color: #fff; }
+
+.page-footer {
+  padding: 20px 0;
+  color: #7e7e7e;
+  background-color: #222; }
+
+.social-link .fab {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 35px;
+  padding: 0 10px;
+  color: #7e7e7e;
+  transition: all 0.2s; }
+
+.social-link .fab:hover {
+  color: #ffff;
+  transform: scale(1.1); }
